@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.RCB-bg-container {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d);
+  height: 100%;
+}
+
+.KKR-bg-container {
+  background-image: linear-gradient(to bottom, #5755a7, #a4261d);
+  height: 100%;
+}
+
+.KXP-bg-container {
+  background-image: linear-gradient(to bottom, #da237b, #a4261d);
+  height: 100%;
+}
+
+.CSK-bg-container {
+  background-image: linear-gradient(to bottom, #f7db00, #a4261d);
+  height: 100%;
+}
+
+.RR-bg-container {
+  background-image: linear-gradient(to bottom, #4f5db0, #a4261d);
+  height: 100%;
+}
+
+.MI-bg-container {
+  background-image: linear-gradient(to bottom, #13418b, #a4261d);
+  height: 100%;
+}
+
+.SH-bg-container {
+  background-image: linear-gradient(to bottom, #f26d22, #a4261d);
+  height: 100%;
+}
+
+.DC-bg-container {
+  background-image: linear-gradient(to bottom, #4f5db0, #a4261d);
+  height: 100%;
+}
+
+.loader-center {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loader-style {
+  display: flex;
+  justify-content: center;
+}
+
+.ipl-team-banner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.ipl-team-banner {
+  height: 150px;
+  width: 90%;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 576px) {
+  .ipl-team-banner {
+    height: 200px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ipl-team-banner {
+    height: 400px;
+    margin-top: 30px;
+  }
+}
+
+.latest-matches-heading {
+  color: #ffffff;
+  font-family: "Bree Serif";
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5%;
+  margin-top: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-matches-heading {
+    font-size: 18px;
+  }
+}
+
+.recent-matches-list {
+  padding-left: 0;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
